@@ -4,23 +4,23 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="p-5 bg-gray-300 tracking-wider">
+    <footer className="p-3 bg-[#3d3d3d] text-white tracking-wider">
       <h3 dir="ltr" className="flex capitalize text-xl w-full justify-center items-center">
         {" "}
         created by: <span className="font-bold text-[var(--main-color)]"> omar adel</span>
       </h3>
       <div>
-        <a dir="ltr" className="flex justify-center items-center gap-2" href="mailto:omar50001000@gmail.com">
+        <a dir="ltr" className="flex mt-2 justify-center items-center gap-2" href="mailto:omar50001000@gmail.com">
           <MdEmail />
           omar50001000@gmail.com
         </a>
 
-        <a dir="ltr" className="flex justify-center items-center gap-2" href="tel:+201011424410">
+        <a dir="ltr" className="flex mt-2 justify-center items-center gap-2" href="tel:+201011424410">
           <CiPhone />
           +201011424410
         </a>
 
-        <div className="flex justify-center items-center">
+        <div className="flex mt-2 justify-center items-center">
 
           <a href="https://www.facebook.com/profile.php?id=100047232660129" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
